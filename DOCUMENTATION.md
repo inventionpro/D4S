@@ -14,3 +14,9 @@ E
 ![image](https://user-images.githubusercontent.com/118752107/211858286-710859d8-32dd-4b34-846c-abc84ec0dc5a.png)
 
 As you can see first we check IF any message is received on the server, and then we reply with whatever we put in, and ping the user by setting ping to true.
+## Message author
+v
+## Message channel
+v
+## Message server
+v
