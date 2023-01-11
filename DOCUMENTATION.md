@@ -3,5 +3,7 @@
 T
 ## When bot is started
 H
-## When message is recived
+## Set bot status to
 E
+## When message is recived
+B
