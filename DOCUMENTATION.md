@@ -1,5 +1,5 @@
 # Documentation
-## Connect to discord, with token ()
+## Connect to discord, with token [token]
 ##### Opcode: d4s_base_token
 Connect to discord with token, This block is the most important making the the bot turn on.\
 (You should not share projects with the token inside as it gives full acces to the bot)\
