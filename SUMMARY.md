@@ -1,7 +1,7 @@
 # Table of contents
 
-## About project <a href="#about" id="about"></a>
+## Discord for Scratch <a href="#d4s" id="d4s"></a>
 
-* [Page 1](README.md)
-* [Page 2](about/page-2.md)
-* [Page 3](about/page-3.md)
+* [Main](README.md)
+* [How to use](d4s/how-to-use.md)
+* [Blocks](d4s/blocks.md)
