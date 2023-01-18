@@ -1,18 +1,13 @@
-# Main
-
-### About project
-
-This project was started as an idea to recreate s4d (Scratch for discord) but in scratch.
-
+# Discord for Scratch
+## About project
+This project was started as an idea to recreate s4d (Scratch for discord) but in scratch.\
 To recreate s4d (Scratch for discord) in Scratch we will create an extension for Scratch using Scratch x that allows to use discord this will add a lot of interactibility
-
 ### Contributors
-
 * [Inventionpro](https://github.com/inventionpro)
 * [LarsIsHere](https://github.com/LarsIsHere)
-
+### Documentation / How to use
+To see documentation or how to use go [here](https://github.com/inventionpro/D4S/wiki)
 ### Links
-
 * Project
   * [Github](https://github.com/inventionpro/D4S)
   * [Gitbook](https://inventionpro-team.gitbook.io/d4s/)
