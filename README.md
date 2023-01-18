@@ -10,7 +10,7 @@ To see documentation or how to use go [here](https://github.com/inventionpro/D4S
 ### Links
 * Project
   * [Github](https://github.com/inventionpro/D4S)
-  * [Gitbook](https://inventionpro-team.gitbook.io/d4s/)
+  * [Documentation](https://github.com/inventionpro/D4S/wiki)
 * Tools
   * [Scratch](https://scratch.mit.edu)
   * [Turbowarp](https://turbowarp.org)
