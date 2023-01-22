@@ -5,8 +5,9 @@ To recreate s4d (Scratch for discord) in Scratch we will create an extension for
 ### Contributors
 * [Inventionpro](https://github.com/inventionpro)
 * [LarsIsHere](https://github.com/LarsIsHere)
-### Documentation / How to use
-To see documentation or how to use go [here](https://github.com/inventionpro/D4S/wiki)
+### Documentation / Contributing
+Documentation or how to use go [here](https://github.com/inventionpro/D4S/wiki)\
+Contrubuting go [here](https://github.com/inventionpro/D4S/blob/main/CONTRIBUTING.md)
 ### Links
 * Project
   * [Github](https://github.com/inventionpro/D4S)
