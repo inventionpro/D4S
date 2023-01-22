@@ -1,6 +1,50 @@
 // New format for unsandboxed extensions:
 (function(Scratch) {
   'use strict';
+  // This is for compatibility with plugin loaders that don't implement window.Scratch
+  // This code was borrowed from pen+ extension https://github.com/TurboWarp/extensions/blob/master/extensions/penplus.js
+  // and as for justification I will say expanding the extension outside of turbowarp
+  if (!Scratch) {
+    Scratch = {
+      // @ts-expect-error
+      BlockType: {
+        COMMAND: 'command',
+        REPORTER: 'reporter',
+        BOOLEAN: 'boolean',
+        HAT: 'hat'
+      },
+      // @ts-expect-error
+      ArgumentType: {
+        STRING: 'string',
+        NUMBER: 'number',
+        COLOR: 'color',
+        ANGLE: 'angle',
+        BOOLEAN: 'Boolean',
+        MATRIX: 'matrix',
+        NOTE: 'note'
+      },
+      // @ts-expect-error
+      vm: window.vm,
+      extensions: {
+        unsandboxed: true,
+        register: (object) => {
+          // @ts-expect-error
+          const serviceName = vm.extensionManager._registerInternalExtension(object);
+          // @ts-expect-error
+          vm.extensionManager._loadedExtensions.set(object.getInfo().id, serviceName);
+        }
+      }
+    };
+    if (!Scratch.vm) {
+      throw new Error('The VM does not exist');
+    }
+  }
+
+  if (!Scratch.extensions.unsandboxed) {
+    throw new Error('Pen+ must be run unsandboxed');
+  }
+
+  // actual extension
   class D4S {
     getInfo() {
       return {
@@ -28,10 +72,8 @@
     
     // Where the blocks do stuff
     d4s_base_token(args) {
-      // You can just return a value: any string, boolean, or number will work.
-      // If you have to perform an asynchronous action like a request, just return a Promise.
-      // The block will wait until the Promise resolves and return the resolved value.
-      return args.TOKEN;
+      client.login(args.TOKEN);
+      return '';
     }
   }
   Scratch.extensions.register(new D4S());
