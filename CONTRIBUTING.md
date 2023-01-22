@@ -9,6 +9,7 @@ One of the things you can contribute in is the documentation to do so remember t
 ## Code
 Code is another thing you can contribute in but remember to follow thw rules
 ### Code rules
+ * Only make changes to unreleased versions
  * No NSFW
  * Remember to make sure there are no errors
  * No malicious code
