@@ -41,7 +41,7 @@
   }
 
   if (!Scratch.extensions.unsandboxed) {
-    throw new Error('Pen+ must be run unsandboxed');
+    throw new Error('D4S must be run unsandboxed');
   }
 
   // actual extension
