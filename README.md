@@ -19,3 +19,5 @@ Contrubuting go [here](https://github.com/inventionpro/D4S/blob/main/CONTRIBUTIN
 * Inspiration
   * [S4D 469](https://github.com/scratch-for-discord)
   * [S4D Original](https://github.com/Androz2091/scratch-for-discord)
+### Visits
+![Page views](https://profile-counter.glitch.me/inventionpro/count.svg)
